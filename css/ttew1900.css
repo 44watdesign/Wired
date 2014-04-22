@@ -1,0 +1,45 @@
+/* CGT205 Final
+	Team Type, Fall 2013
+	Project colors: brown #766A57;  tan #EEE8DB; white #fff; black #000;
+*/
+
+#pagewrapper {
+	width: 900px;
+	margin: 0 auto;
+}
+
+
+#name {
+	width: 670px;
+	font-size: 1.5em;
+}
+
+
+#nav {
+	width: 890px;
+	margin: 0 0 0 3px;
+}
+
+
+#goto li {
+	width: 142px;
+	text-align: center;
+}
+
+
+#stuff1, #stuff3{
+	width: 47%;
+	min-height: 15em;
+	float: left;
+}
+
+#stuff2, #stuff4 {
+	width: 47%;
+	min-height: 15em;
+	float: right;
+}
+
+
+#footer {
+	clear: both;
+}
