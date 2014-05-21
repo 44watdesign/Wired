@@ -77,6 +77,10 @@ header h1 {
 	line-height: 1.3;
 }
 
+#intro {
+	padding-top: 2%;
+}
+
 aside {
 	margin: 2% 0 5% 0;
 	padding:1% 1% 5% 1%;
@@ -136,7 +140,7 @@ aside a:link {color:#000;}
 
 #social {
 	margin-bottom:1%;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	text-align: center;
 }
 
@@ -146,11 +150,14 @@ aside a:link {color:#000;}
 	height:48px;
 }
 
-/*#map{
-	margin: 0;
-	width:200px;
+#map{
+/*	margin: 0;
+	width:200px;*/
+	text-align: center;
+	/*border: 1px solid tomato;*/
+	margin: 0 auto;
 
-}*/
+}
 
 #location {
 	/*padding:1%;*/
@@ -166,6 +173,7 @@ aside a:link {color:#000;}
 
 
 footer {
+	position: relative;
 	clear:both;
 	margin: 0;
 	padding: 1em;
@@ -174,6 +182,13 @@ footer {
 	color: #fff;
 	
 }
+
+footer .search {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
 
 footer li {
 	list-style:none;
@@ -214,11 +229,11 @@ footer a:active, #footer a:active {
 footer div {
 	display: inline-block;
 }
-
+*/
 footer div.search {
-	display: block;
+	display: inline-block;
 }
-
+/*
 
 footer div#footnav2, footer div#footnav1 {
 	float: right;
@@ -228,8 +243,8 @@ footer div#location {
 	margin: 0 auto;
 }*/
 footer div.finfo {
-	border: 1px solid tomato;
+	/*border: 1px solid tomato;*/
 	display: block;
-	margin-top: 12px;
+	margin-top: 18px;
 	padding: 10px;
 }
