@@ -1,6 +1,12 @@
 /* 
-Project colors: blue-grey hex: #3c486d; white #fff; dark blue #242B41; med blue (nav) #636D8A;
-peach #F6BD8D; grey (aside) #eaeaea; grey (aside border) #e8e8e8; black #000;
+Project colors: 
+	blue-grey hex: #3c486d; 
+	white #fff; 
+	black #000;
+	dark blue #242B41; 
+	med blue (nav) #636D8A;
+	peach #F6BD8D; rgb(246,189,141);
+	grey (aside) #eaeaea; 
 */
 
 body {
@@ -78,13 +84,15 @@ header h1 {
 }
 
 #intro {
-	padding-top: 2%;
+	padding-top: 2.8%;
+	font-size: 1.4em;
+	padding-left: 2%;
 }
 
 aside {
 	margin: 2% 0 5% 0;
 	padding:1% 1% 5% 1%;
-	border:2px solid #e8e8e8;
+	border:2px solid rgba(246,189,141,0.4);
 	border-radius: 5px;
 	background:#eaeaea;
 	
@@ -97,10 +105,15 @@ aside h2 {
 
 
 .fpb {
-	margin-left:40%;
+/*	margin-left:40%;*/
+	/*border: 1px solid tomato;*/
+	display: block;
+	margin: 0 auto;
+	width: 70px;
+	height: 70px;
 }
 
-.col3 img {
+.circles img {
 	width:70px;
 	height:70px;
 }
@@ -180,7 +193,8 @@ footer {
 	background: #242B41;
 	font-size: 1.1em;
 	color: #fff;
-	
+	margin-top: 25px;
+	border-top: 10px solid #F6BD8D;
 }
 
 footer .search {
