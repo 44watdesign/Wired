@@ -136,7 +136,8 @@ aside a:link {color:#000;}
 
 #social {
 	margin-bottom:1%;
-	
+	border: 1px solid red;
+	text-align: center;
 }
 
 #social img {
@@ -145,16 +146,16 @@ aside a:link {color:#000;}
 	height:48px;
 }
 
-#map{
+/*#map{
 	margin: 0;
 	width:200px;
 
-}
+}*/
 
 #location {
-	padding:1%;
-	line-height:0.3;
-	width:250px;
+	/*padding:1%;*/
+	/*line-height:0.6em;*/
+	/*width:250px;*/
 
 }
 
@@ -174,11 +175,15 @@ footer {
 	
 }
 
-footer li, #footer li  {
+footer li {
 	list-style:none;
 	padding:0;
-	margin-left:-3em;
+	/*margin-left:-3em;*/
 	
+}
+
+footer ul li {
+	margin-bottom: 1em;
 }
 
 footer a:link, #footer a:link {
@@ -199,4 +204,32 @@ footer a:hover, #footer a:hover {
 footer a:active, #footer a:active {
     text-decoration:none;
     color:#e8e8e8;
+}
+
+
+/*footer {
+	border: 1px solid yellow;
+}
+
+footer div {
+	display: inline-block;
+}
+
+footer div.search {
+	display: block;
+}
+
+
+footer div#footnav2, footer div#footnav1 {
+	float: right;
+}
+
+footer div#location {
+	margin: 0 auto;
+}*/
+footer div.finfo {
+	border: 1px solid tomato;
+	display: block;
+	margin-top: 12px;
+	padding: 10px;
 }
