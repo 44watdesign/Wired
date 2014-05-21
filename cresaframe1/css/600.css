@@ -1,0 +1,46 @@
+#nav img {
+	display:none;
+}
+
+
+#intro {
+	width:62%;
+	float:left;
+	margin-bottom:3%;
+}
+
+#building {
+	display:block;
+}
+
+aside {
+	float:right;
+	width:30%;
+}
+
+aside h2 {text-align: center;}
+
+#records {
+	clear:both;
+}
+
+.fpb {
+	margin-left:33%;
+}
+
+.col3 {
+	padding:2%;
+	width:29%;
+	float:left;
+}
+
+.button {
+	margin-left:0;
+	padding: 0.5em 0.9em;
+	font-weight: 700;
+	float:right;
+}
+footer {
+	
+
+}
